@@ -16,6 +16,9 @@ $(document).ready(function () {
         event.preventDefault();
     });
 
+    // MetsiMenu
+    $('#side-menu').metisMenu();
+
 });
 
 // Activate WOW.js plugin for animation on scrol

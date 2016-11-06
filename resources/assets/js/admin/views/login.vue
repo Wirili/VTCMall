@@ -25,6 +25,10 @@
                 }
             }
         },
+        beforeMount:function(){
+            console.log('login component beforeMount');
+            this.$router.push('/index');
+        },
         methods:{
             login:function(){
                 let vm=this;
