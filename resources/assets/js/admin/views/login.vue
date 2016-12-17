@@ -27,12 +27,12 @@
         },
         beforeMount:function(){
             console.log('login component beforeMount');
-            this.$router.push('/index');
+            this.$router.push('/main/index');
         },
         methods:{
             login:function(){
                 let vm=this;
-                vm.$router.push('/index');
+                vm.$router.push('/main/index');
             }
         }
     }

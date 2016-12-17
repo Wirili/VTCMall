@@ -27,11 +27,11 @@ Vue.use(VueResource);
  * included with Laravel will automatically verify the header's value.
  */
 
-Vue.http.interceptors.push((request, next) => {
-    request.headers.set('X-CSRF-TOKEN', Laravel.csrfToken);
-
-    next();
-});
+// Vue.http.interceptors.push((request, next) => {
+//     request.headers.set('X-CSRF-TOKEN', Laravel.csrfToken);
+//
+//     next();
+// });
 /**
  * First we will load all of this project's JavaScript dependencies which
  * include Vue and Vue Resource. This gives a great starting point for
